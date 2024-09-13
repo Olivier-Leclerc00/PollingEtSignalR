@@ -36,7 +36,7 @@ namespace labo.signalr.api.Controllers
             };
             _context.UselessTasks.Add(uselessTask);
             await _context.SaveChangesAsync();
-
+            
             return Ok(uselessTask);
         }
 
